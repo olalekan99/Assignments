@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: black;
+  color: azure;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background-image: url(phiz.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu-bar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.logo {
+  color: aqua;
+  font-size: 30px;
+}
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li {
+  padding: 10px 30px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu-bar ul li a:hover {
+  color: azure;
+}
+
+.intro {
+  margin: 25px;
+  padding: 40px 25px;
+}
+
+.name {
+  font-size: 40px;
+  color: blue;
+}
+.dev {
+  font-size: 20px;
+  color: brown;
+}
+
+/* About Styling */
+#about {
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px 20px;
+  color: blue;
+}
+.about {
+  margin: 25px;
+  display: flex;
+}
+.about-2 {
+  margin: 100px 50px;
+}
+/* contact us styling */
+.contact {
+  color: aqua;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px 20px;
+}
+/* services */
+#services {
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px 20px;
+  color: blue;
+}
+.services ul li {
+  list-style-type: none;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+.services {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+/* Project Syling */
+#projects {
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px 20px;
+  color: blue;
+}
+.projects ul li {
+  list-style-type: none;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+.projects ul li a {
+  text-decoration: none;
+}
+/* Footer Styling */
+.down ul li {
+  list-style-type: none;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
