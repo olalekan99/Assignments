@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: Lexend Deca;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+main img {
+  width: 50px;
+}
+main h2 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin: 20px 0px;
+}
+
+main p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  width: 33.33%;
+  height: 100%;
+  margin: auto;
+  padding: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  width: 33.33%;
+  height: 100%;
+  padding: 30px;
+}
+
+.lux {
+  background-color: hsl(179, 100%, 13%);
+  width: 33.33%;
+  height: 100%;
+  padding: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sed-btn {
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 50px;
+  border: 1px solid white;
+}
+.suv-btn {
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 50px;
+  border: 1px solid white;
+}
+.lux-btn {
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 50px;
+  border: 1px solid white;
+}
+.sed-btn:hover {
+  cursor: pointer;
+}
+.suv-btn:hover {
+  cursor: pointer;
+}
+.lux-btn:hover {
+  cursor: pointer;
+}
+.gridlay {
+  font-size: xx-large;
+  border-radius: 10px;
+  width: 25%;
+  height: 60px;
+}
+.gridlay a {
+  text-decoration: none;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex: column;
+    width: 30%;
+    overflow: hidden;
+    margin: auto;
+  }
+  main img {
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  main h2 {
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+  }
+
+  main p {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
+
+  .sedan {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .suv {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .lux {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .sed-btn {
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 25x;
+    border: 1px solid white;
+  }
+
+  .suv-btn {
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+  }
+  .lux-btn {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+  }
+}
